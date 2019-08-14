@@ -137,7 +137,7 @@ ff02::2	 ip6-allrouters
 EOF
 	#
 	cat <<EOF > /mnt/pi/etc/hostname
-kodi
+$2
 EOF
 	# Now customize the host table based on the pi installed ($3) pi1 is default
 	# so there is no if statement for it.
