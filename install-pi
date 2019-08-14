@@ -7,7 +7,7 @@
 # host is the hostname of the pi, such as pi1
 #
 # Example:
-# ./install-pi yes pi1 POND cindyspw
+# ./install-pi yes pi1 SSID-FOR-YOUR-NETWORK password-for-your-network
 #
 # Check the arguments
 #
