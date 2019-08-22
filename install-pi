@@ -2,7 +2,7 @@
 #
 #
 # Usage:
-# ./install-pi.sh yes host SSID PASSPHRASE
+# ./install-pi yes host SSID PASSPHRASE
 # yes is if you want to download the image, otherwise, it assumes you have the image in the current directory
 # host is the hostname of the pi, such as pi1
 #
