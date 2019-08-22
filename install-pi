@@ -210,13 +210,17 @@ echo "here is the fat32 mount command:"
 echo "mount $OUTPUT_DEVICE_PARTITION_AFTER_DD_FAT32 /mnt/pi32"
 mount $OUTPUT_DEVICE_PARTITION_AFTER_DD_FAT32 /mnt/pi32
 #
-# touch the ssh file
+# touch the ssh file - this will setup the logic to start the ssh daemon and allow remote ssh login
 #
 touch /mnt/pi32/ssh
 #
 # umount the FAT32 filesystem
 #
-#umount /mnt/pi32
+umount /mnt/pi
+#
+# umount the Linux filesystem
+#
+umount /mnt/pi
 #
 # Thats all folks!
 #
